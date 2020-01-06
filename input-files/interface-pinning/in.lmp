@@ -13,13 +13,13 @@ variable runnerCutoff    equal  6.3501269880                                    
 variable mass2           equal  15.9994                                                 # mass for element 1 (O)  (g/mol)
 variable mass1           equal  1.0080                                                  # mass for element 2 (H) (g/mol)
 variable nameStartCfg    string "data.iceih-big"                				# name of the starting configuration file
-variable runnerDir       string "."	                        # directory containing RuNNer files
+variable runnerDir       string "./"	                        # directory containing RuNNer files
 # set initial velocity distribution
-variable initTemp        equal  ttttt                                                   # initial temperature (K)
-variable velSeed         equal  498ttttt9                                                 # seed for random number generator
+variable initTemp        equal  300                                                   # initial temperature (K)
+variable velSeed         equal  4983009                                                 # seed for random number generator
 # NVT integrator (Nose-Hoover)
-variable startTemp       equal  ttttt                                                   # starting temperature for thermostat (K)
-variable stopTemp        equal  ttttt                                                   # final temperature for thermostat (K)
+variable startTemp       equal  300                                                   # starting temperature for thermostat (K)
+variable stopTemp        equal  300                                                   # final temperature for thermostat (K)
 variable tDamp           equal  0.02                                                    # thermostat damping factor (ps)
 # dump thermodynamic properties (temperature, pressure, potential energy, kinetic energy, integrator quantity)
 variable intTD           equal  10                                                      # thermodynamics dump file interval (timesteps)
@@ -37,7 +37,7 @@ mass 1 ${mass1}                                                                 
 mass 2 ${mass2}          
 
 #
-change_box all x final 0.0 CELLX y final 0.0 CELLY remap
+change_box all x final 0.0 46.937 y final 0.0 44.121 remap
 ### SIMULATION STARTS HERE ###
 change_box all z scale 1.00 remap
 
@@ -53,7 +53,7 @@ region zcenter block 0 INF 0 INF $(lz/3) $(2*lz/3) side in units box
 group ice region zcenter
 group water subtract all ice
 
-pair_style nnp dir ${runnerDir} showew no showewsum 1000 resetew yes maxew 200 cflength 1.8897261328 cfenergy 0.0367493254
+pair_style nnp showew no showewsum 1000 resetew yes maxew 200 cflength 1.8897261328 cfenergy 0.0367493254
 pair_coeff * * ${runnerCutoff}                                                          # set up pair style coefficients
 timestep ${dt}                                                                          # set timestep
 #velocity all create ${initTemp} ${velSeed}                                              # create initial velocities

@@ -1,0 +1,608 @@
+LAMMPS (7 Aug 2019)
+###############################################################################
+# MD simulation for revPBE0-D3 H2O with NN potential
+###############################################################################
+
+###############################################################################
+# VARIABLES
+###############################################################################
+clear
+variable dt              equal  0.0005                                                   # timestep (ps)
+variable intThermo       equal  1                                                       # screen output interval (timesteps)
+variable numSteps        equal  4000000                                                    # total number of simulation timesteps (timesteps)
+variable runnerCutoff    equal  6.3501269880                                            # largest symmetry function cutoff (Angstrom)
+variable mass2           equal  15.9994                                                 # mass for element 1 (O)  (g/mol)
+variable mass1           equal  1.0080                                                  # mass for element 2 (H) (g/mol)
+variable nameStartCfg    string "data.iceih-big"                				# name of the starting configuration file
+variable runnerDir       string "./"	                        # directory containing RuNNer files
+# set initial velocity distribution
+variable initTemp        equal  300                                                   # initial temperature (K)
+variable velSeed         equal  4983009                                                 # seed for random number generator
+# NVT integrator (Nose-Hoover)
+variable startTemp       equal  300                                                   # starting temperature for thermostat (K)
+variable stopTemp        equal  300                                                   # final temperature for thermostat (K)
+variable tDamp           equal  0.02                                                    # thermostat damping factor (ps)
+# dump thermodynamic properties (temperature, pressure, potential energy, kinetic energy, integrator quantity)
+variable intTD           equal  10                                                      # thermodynamics dump file interval (timesteps)
+variable nameTD          string "traj/td"                                               # thermodynamics file name
+variable varVolume       equal  vol                                                     # variable required to print volume
+variable varKE           equal  ke                                                      # variable required to print kinetic energy
+###############################################################################
+# SETUP
+###############################################################################
+units metal                                                                             # define unit system (metal = Angstrom, eV, ps, g/mol)
+boundary p p p                                                                          # set periodic boundary conditions
+atom_style atomic                                                                       # set atomic style for particles
+read_data ${nameStartCfg}                                                               # read start configuration
+read_data data.iceih-big                                                               
+  orthogonal box = (0 0 0) to (46.937 44.121 45.182)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  8640 atoms
+  read_data CPU = 0.00585604 secs
+mass 1 ${mass1}                                                                         # set mass for element 1
+mass 1 1.008                                                                         
+mass 2 ${mass2}
+mass 2 15.9994
+
+#
+change_box all x final 0.0 46.937 y final 0.0 44.121 remap
+  orthogonal box = (0 0 0) to (46.937 44.121 45.182)
+  orthogonal box = (0 0 0) to (46.937 44.121 45.182)
+### SIMULATION STARTS HERE ###
+change_box all z scale 1.00 remap
+  orthogonal box = (0 0 0) to (46.937 44.121 45.182)
+
+replicate 1 1 2
+  orthogonal box = (0 0 0) to (46.937 44.121 90.364)
+  1 by 1 by 1 MPI processor grid
+  17280 atoms
+  replicate CPU = 0.00263309 secs
+
+neighbor       7.0 bin          # neighbor list skin width
+neigh_modify   every 1 delay 0 check yes # frequency to update neighor list
+# Write initial data file
+#write_data ./init.data
+
+# Regions and group
+region zcenter block 0 INF 0 INF $(lz/3) $(2*lz/3) side in units box
+region zcenter block 0 INF 0 INF 30.121333333333335958 $(2*lz/3) side in units box
+region zcenter block 0 INF 0 INF 30.121333333333335958 60.242666666666671915 side in units box
+group ice region zcenter
+5904 atoms in group ice
+group water subtract all ice
+11376 atoms in group water
+
+pair_style nnp showew no showewsum 1000 resetew yes maxew 200 cflength 1.8897261328 cfenergy 0.0367493254
+pair_coeff * * ${runnerCutoff}                                                          # set up pair style coefficients
+pair_coeff * * 6.350126988                                                          
+timestep ${dt}                                                                          # set timestep
+timestep 0.0005                                                                          
+#velocity all create ${initTemp} ${velSeed}                                              # create initial velocities
+#fix AVE_TD all ave/time ${intTD} 1 ${intTD} c_thermo_temp c_thermo_press v_varVolume c_thermo_pe v_varKE f_INT file ${nameTD} mode scalar       # set up thermodynamic properties output
+thermo ${intThermo}                                                                     # set screen output
+thermo 1                                                                     
+###############################################################################
+# SIMULATION
+###############################################################################
+
+#dump            traj_xyz all custom 50 out.lammpstrj element x y z
+#dump_modify     traj_xyz element H O sort id
+
+# melt the ice first
+velocity        water create 600 2148459 rot yes mom yes dist gaussian # assign initial velocities to the particles
+fix             1 water npt temp 500.0 400.0 ${tDamp} z 1.0 1.0 10.0
+fix             1 water npt temp 500.0 400.0 0.02 z 1.0 1.0 10.0
+run             5000
+
+*******************************************************************************
+
+   NNP LIBRARY v2.0.0
+   ------------------
+
+Git branch  : master
+Git revision: 23e4dbe (23e4dbec523b889ffb155e87f7b64a7291683848)
+
+Number of OpenMP threads: 4
+*******************************************************************************
+
+*** SETUP: SETTINGS FILE ******************************************************
+
+Settings file name: nnp/input.nn
+Read 92 lines.
+Found 65 lines with keywords.
+*******************************************************************************
+
+*** SETUP: NORMALIZATION ******************************************************
+
+Data set normalization is not used.
+*******************************************************************************
+
+*** SETUP: ELEMENT MAP ********************************************************
+
+Number of element strings found: 2
+Element  0:  H (  1)
+Element  1:  O (  8)
+*******************************************************************************
+
+*** SETUP: ELEMENTS ***********************************************************
+
+Number of elements is consistent: 2
+Atomic energy offsets per element:
+Element  0:   0.00000000E+00
+Element  1:   0.00000000E+00
+Energy offsets are automatically subtracted from reference energies.
+*******************************************************************************
+
+*** SETUP: CUTOFF FUNCTIONS ***************************************************
+
+Parameter alpha for inner cutoff: 0.000000
+Inner cutoff = Symmetry function cutoff * alpha
+Equal cutoff function type for all symmetry functions:
+CutoffFunction::CT_TANHU (2)
+f(r) = tanh^3(1 - r/rc)
+*******************************************************************************
+
+*** SETUP: SYMMETRY FUNCTIONS *************************************************
+
+Abbreviations:
+--------------
+ind .... Symmetry function index.
+ec ..... Central atom element.
+ty ..... Symmetry function type.
+e1 ..... Neighbor 1 element.
+e2 ..... Neighbor 2 element.
+eta .... Gaussian width eta.
+rs ..... Shift distance of Gaussian.
+la ..... Angle prefactor lambda.
+zeta ... Angle term exponent zeta.
+rc ..... Cutoff radius.
+ct ..... Cutoff type.
+ca ..... Cutoff alpha.
+ln ..... Line number in settings file.
+
+Short range atomic symmetry functions element  H :
+-------------------------------------------------------------------------------
+ ind ec ty e1 e2       eta        rs la zeta        rc ct   ca    ln
+-------------------------------------------------------------------------------
+   1  H  2  H    1.000E-03 0.000E+00         1.200E+01  2 0.00    22
+   2  H  2  O    1.000E-03 0.000E+00         1.200E+01  2 0.00    32
+   3  H  2  H    1.000E-02 0.000E+00         1.200E+01  2 0.00    23
+   4  H  2  O    1.000E-02 0.000E+00         1.200E+01  2 0.00    33
+   5  H  2  H    3.000E-02 0.000E+00         1.200E+01  2 0.00    24
+   6  H  2  O    3.000E-02 0.000E+00         1.200E+01  2 0.00    34
+   7  H  2  H    6.000E-02 0.000E+00         1.200E+01  2 0.00    25
+   8  H  2  O    6.000E-02 0.000E+00         1.200E+01  2 0.00    35
+   9  H  2  O    1.500E-01 9.000E-01         1.200E+01  2 0.00    36
+  10  H  2  H    1.500E-01 1.900E+00         1.200E+01  2 0.00    26
+  11  H  2  O    3.000E-01 9.000E-01         1.200E+01  2 0.00    37
+  12  H  2  H    3.000E-01 1.900E+00         1.200E+01  2 0.00    27
+  13  H  2  O    6.000E-01 9.000E-01         1.200E+01  2 0.00    38
+  14  H  2  H    6.000E-01 1.900E+00         1.200E+01  2 0.00    28
+  15  H  2  O    1.500E+00 9.000E-01         1.200E+01  2 0.00    39
+  16  H  2  H    1.500E+00 1.900E+00         1.200E+01  2 0.00    29
+  17  H  3  O  O 1.000E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00    86
+  18  H  3  O  O 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00    85
+  19  H  3  H  O 1.000E-02 0.000E+00 -1  4.0 1.200E+01  2 0.00    76
+  20  H  3  H  O 1.000E-02 0.000E+00  1  4.0 1.200E+01  2 0.00    74
+  21  H  3  H  O 3.000E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00    71
+  22  H  3  O  O 3.000E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00    84
+  23  H  3  H  O 3.000E-02 0.000E+00  1  1.0 1.200E+01  2 0.00    69
+  24  H  3  O  O 3.000E-02 0.000E+00  1  1.0 1.200E+01  2 0.00    83
+  25  H  3  H  O 7.000E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00    66
+  26  H  3  H  O 7.000E-02 0.000E+00  1  1.0 1.200E+01  2 0.00    64
+  27  H  3  H  O 2.000E-01 0.000E+00  1  1.0 1.200E+01  2 0.00    61
+-------------------------------------------------------------------------------
+Short range atomic symmetry functions element  O :
+-------------------------------------------------------------------------------
+ ind ec ty e1 e2       eta        rs la zeta        rc ct   ca    ln
+-------------------------------------------------------------------------------
+   1  O  2  H    1.000E-03 0.000E+00         1.200E+01  2 0.00    41
+   2  O  2  O    1.000E-03 0.000E+00         1.200E+01  2 0.00    51
+   3  O  2  H    1.000E-02 0.000E+00         1.200E+01  2 0.00    42
+   4  O  2  O    1.000E-02 0.000E+00         1.200E+01  2 0.00    52
+   5  O  2  H    3.000E-02 0.000E+00         1.200E+01  2 0.00    43
+   6  O  2  O    3.000E-02 0.000E+00         1.200E+01  2 0.00    53
+   7  O  2  H    6.000E-02 0.000E+00         1.200E+01  2 0.00    44
+   8  O  2  O    6.000E-02 0.000E+00         1.200E+01  2 0.00    54
+   9  O  2  H    1.500E-01 9.000E-01         1.200E+01  2 0.00    45
+  10  O  2  O    1.500E-01 4.000E+00         1.200E+01  2 0.00    55
+  11  O  2  H    3.000E-01 9.000E-01         1.200E+01  2 0.00    46
+  12  O  2  O    3.000E-01 4.000E+00         1.200E+01  2 0.00    56
+  13  O  2  H    6.000E-01 9.000E-01         1.200E+01  2 0.00    47
+  14  O  2  O    6.000E-01 4.000E+00         1.200E+01  2 0.00    57
+  15  O  2  H    1.500E+00 9.000E-01         1.200E+01  2 0.00    48
+  16  O  2  O    1.500E+00 4.000E+00         1.200E+01  2 0.00    58
+  17  O  3  H  O 1.000E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00    81
+  18  O  3  O  O 1.000E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00    91
+  19  O  3  H  O 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00    80
+  20  O  3  O  O 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00    90
+  21  O  3  H  H 1.000E-02 0.000E+00 -1  4.0 1.200E+01  2 0.00    75
+  22  O  3  H  H 1.000E-02 0.000E+00  1  4.0 1.200E+01  2 0.00    73
+  23  O  3  H  H 3.000E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00    70
+  24  O  3  H  O 3.000E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00    79
+  25  O  3  O  O 3.000E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00    89
+  26  O  3  H  H 3.000E-02 0.000E+00  1  1.0 1.200E+01  2 0.00    68
+  27  O  3  H  O 3.000E-02 0.000E+00  1  1.0 1.200E+01  2 0.00    78
+  28  O  3  O  O 3.000E-02 0.000E+00  1  1.0 1.200E+01  2 0.00    88
+  29  O  3  H  H 7.000E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00    65
+  30  O  3  H  H 7.000E-02 0.000E+00  1  1.0 1.200E+01  2 0.00    63
+-------------------------------------------------------------------------------
+Minimum cutoff radius for element  H: 12.000000
+Minimum cutoff radius for element  O: 12.000000
+Maximum cutoff radius (global)      : 12.000000
+*******************************************************************************
+
+*** SETUP: SYMMETRY FUNCTION GROUPS *******************************************
+
+Abbreviations:
+--------------
+ind .... Symmetry function group index.
+ec ..... Central atom element.
+ty ..... Symmetry function type.
+e1 ..... Neighbor 1 element.
+e2 ..... Neighbor 2 element.
+eta .... Gaussian width eta.
+rs ..... Shift distance of Gaussian.
+la ..... Angle prefactor lambda.
+zeta ... Angle term exponent zeta.
+rc ..... Cutoff radius.
+ct ..... Cutoff type.
+ca ..... Cutoff alpha.
+ln ..... Line number in settings file.
+mi ..... Member index.
+sfi .... Symmetry function index.
+e ...... Recalculate exponential term.
+
+Short range atomic symmetry function groups element  H :
+-------------------------------------------------------------------------------
+ ind ec ty e1 e2       eta        rs la zeta        rc ct   ca    ln   mi  sfi e
+-------------------------------------------------------------------------------
+   1  H  2  H            *         *         1.200E+01  2 0.00     *    *    *  
+   -  -  -  -    1.000E-03 0.000E+00                 -  -    -    21    1    1  
+   -  -  -  -    1.000E-02 0.000E+00                 -  -    -    22    2    3  
+   -  -  -  -    3.000E-02 0.000E+00                 -  -    -    23    3    5  
+   -  -  -  -    6.000E-02 0.000E+00                 -  -    -    24    4    7  
+   -  -  -  -    1.500E-01 1.900E+00                 -  -    -    25    5   10  
+   -  -  -  -    3.000E-01 1.900E+00                 -  -    -    26    6   12  
+   -  -  -  -    6.000E-01 1.900E+00                 -  -    -    27    7   14  
+   -  -  -  -    1.500E+00 1.900E+00                 -  -    -    28    8   16  
+   2  H  2  O            *         *         1.200E+01  2 0.00     *    *    *  
+   -  -  -  -    1.000E-03 0.000E+00                 -  -    -    31    1    2  
+   -  -  -  -    1.000E-02 0.000E+00                 -  -    -    32    2    4  
+   -  -  -  -    3.000E-02 0.000E+00                 -  -    -    33    3    6  
+   -  -  -  -    6.000E-02 0.000E+00                 -  -    -    34    4    8  
+   -  -  -  -    1.500E-01 9.000E-01                 -  -    -    35    5    9  
+   -  -  -  -    3.000E-01 9.000E-01                 -  -    -    36    6   11  
+   -  -  -  -    6.000E-01 9.000E-01                 -  -    -    37    7   13  
+   -  -  -  -    1.500E+00 9.000E-01                 -  -    -    38    8   15  
+   3  H  3  H  O         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-02 0.000E+00 -1  4.0         -  -    -    75    1   19 1
+   -  -  -  -  - 1.000E-02 0.000E+00  1  4.0         -  -    -    73    2   20 0
+   -  -  -  -  - 3.000E-02 0.000E+00 -1  1.0         -  -    -    70    3   21 1
+   -  -  -  -  - 3.000E-02 0.000E+00  1  1.0         -  -    -    68    4   23 0
+   -  -  -  -  - 7.000E-02 0.000E+00 -1  1.0         -  -    -    65    5   25 1
+   -  -  -  -  - 7.000E-02 0.000E+00  1  1.0         -  -    -    63    6   26 0
+   -  -  -  -  - 2.000E-01 0.000E+00  1  1.0         -  -    -    60    7   27 1
+   4  H  3  O  O         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  4.0         -  -    -    85    1   17 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -    84    2   18 0
+   -  -  -  -  - 3.000E-02 0.000E+00 -1  1.0         -  -    -    83    3   22 1
+   -  -  -  -  - 3.000E-02 0.000E+00  1  1.0         -  -    -    82    4   24 0
+-------------------------------------------------------------------------------
+Short range atomic symmetry function groups element  O :
+-------------------------------------------------------------------------------
+ ind ec ty e1 e2       eta        rs la zeta        rc ct   ca    ln   mi  sfi e
+-------------------------------------------------------------------------------
+   1  O  2  H            *         *         1.200E+01  2 0.00     *    *    *  
+   -  -  -  -    1.000E-03 0.000E+00                 -  -    -    40    1    1  
+   -  -  -  -    1.000E-02 0.000E+00                 -  -    -    41    2    3  
+   -  -  -  -    3.000E-02 0.000E+00                 -  -    -    42    3    5  
+   -  -  -  -    6.000E-02 0.000E+00                 -  -    -    43    4    7  
+   -  -  -  -    1.500E-01 9.000E-01                 -  -    -    44    5    9  
+   -  -  -  -    3.000E-01 9.000E-01                 -  -    -    45    6   11  
+   -  -  -  -    6.000E-01 9.000E-01                 -  -    -    46    7   13  
+   -  -  -  -    1.500E+00 9.000E-01                 -  -    -    47    8   15  
+   2  O  2  O            *         *         1.200E+01  2 0.00     *    *    *  
+   -  -  -  -    1.000E-03 0.000E+00                 -  -    -    50    1    2  
+   -  -  -  -    1.000E-02 0.000E+00                 -  -    -    51    2    4  
+   -  -  -  -    3.000E-02 0.000E+00                 -  -    -    52    3    6  
+   -  -  -  -    6.000E-02 0.000E+00                 -  -    -    53    4    8  
+   -  -  -  -    1.500E-01 4.000E+00                 -  -    -    54    5   10  
+   -  -  -  -    3.000E-01 4.000E+00                 -  -    -    55    6   12  
+   -  -  -  -    6.000E-01 4.000E+00                 -  -    -    56    7   14  
+   -  -  -  -    1.500E+00 4.000E+00                 -  -    -    57    8   16  
+   3  O  3  H  H         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-02 0.000E+00 -1  4.0         -  -    -    74    1   21 1
+   -  -  -  -  - 1.000E-02 0.000E+00  1  4.0         -  -    -    72    2   22 0
+   -  -  -  -  - 3.000E-02 0.000E+00 -1  1.0         -  -    -    69    3   23 1
+   -  -  -  -  - 3.000E-02 0.000E+00  1  1.0         -  -    -    67    4   26 0
+   -  -  -  -  - 7.000E-02 0.000E+00 -1  1.0         -  -    -    64    5   29 1
+   -  -  -  -  - 7.000E-02 0.000E+00  1  1.0         -  -    -    62    6   30 0
+   4  O  3  H  O         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  4.0         -  -    -    80    1   17 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -    79    2   19 0
+   -  -  -  -  - 3.000E-02 0.000E+00 -1  1.0         -  -    -    78    3   24 1
+   -  -  -  -  - 3.000E-02 0.000E+00  1  1.0         -  -    -    77    4   27 0
+   5  O  3  O  O         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  4.0         -  -    -    90    1   18 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -    89    2   20 0
+   -  -  -  -  - 3.000E-02 0.000E+00 -1  1.0         -  -    -    88    3   25 1
+   -  -  -  -  - 3.000E-02 0.000E+00  1  1.0         -  -    -    87    4   28 0
+-------------------------------------------------------------------------------
+*******************************************************************************
+
+*** SETUP: NEURAL NETWORKS ****************************************************
+
+Normalize neurons (all elements): 0
+-------------------------------------------------------------------------------
+Atomic short range NN for element  H :
+Number of weights    :    960
+Number of biases     :     41
+Number of connections:   1001
+Architecture       27   20   20    1
+-------------------------------------------------------------------------------
+   1   G   t   t   l
+   2   G   t   t    
+   3   G   t   t    
+   4   G   t   t    
+   5   G   t   t    
+   6   G   t   t    
+   7   G   t   t    
+   8   G   t   t    
+   9   G   t   t    
+  10   G   t   t    
+  11   G   t   t    
+  12   G   t   t    
+  13   G   t   t    
+  14   G   t   t    
+  15   G   t   t    
+  16   G   t   t    
+  17   G   t   t    
+  18   G   t   t    
+  19   G   t   t    
+  20   G   t   t    
+  21   G            
+  22   G            
+  23   G            
+  24   G            
+  25   G            
+  26   G            
+  27   G            
+-------------------------------------------------------------------------------
+Atomic short range NN for element  O :
+Number of weights    :   1020
+Number of biases     :     41
+Number of connections:   1061
+Architecture       30   20   20    1
+-------------------------------------------------------------------------------
+   1   G   t   t   l
+   2   G   t   t    
+   3   G   t   t    
+   4   G   t   t    
+   5   G   t   t    
+   6   G   t   t    
+   7   G   t   t    
+   8   G   t   t    
+   9   G   t   t    
+  10   G   t   t    
+  11   G   t   t    
+  12   G   t   t    
+  13   G   t   t    
+  14   G   t   t    
+  15   G   t   t    
+  16   G   t   t    
+  17   G   t   t    
+  18   G   t   t    
+  19   G   t   t    
+  20   G   t   t    
+  21   G            
+  22   G            
+  23   G            
+  24   G            
+  25   G            
+  26   G            
+  27   G            
+  28   G            
+  29   G            
+  30   G            
+-------------------------------------------------------------------------------
+*******************************************************************************
+
+*** SETUP: SYMMETRY FUNCTION SCALING ******************************************
+
+Equal scaling type for all symmetry functions:
+Scaling type::ST_SCALECENTER (3)
+Gs = Smin + (Smax - Smin) * (G - Gmean) / (Gmax - Gmin)
+WARNING: Keyword "scale_min_short" not found.
+         Default value for Smin = 0.0.
+WARNING: Keyword "scale_max_short" not found.
+         Default value for Smax = 1.0.
+Smin = 0.000000
+Smax = 1.000000
+Symmetry function scaling statistics from file: nnp/scaling.data
+-------------------------------------------------------------------------------
+
+Abbreviations:
+--------------
+ind ..... Symmetry function index.
+min ..... Minimum symmetry function value.
+max ..... Maximum symmetry function value.
+mean .... Mean symmetry function value.
+sigma ... Standard deviation of symmetry function values.
+sf ...... Scaling factor for derivatives.
+Smin .... Desired minimum scaled symmetry function value.
+Smax .... Desired maximum scaled symmetry function value.
+t ....... Scaling type.
+
+Scaling data for symmetry functions element  H :
+-------------------------------------------------------------------------------
+ ind       min       max      mean     sigma        sf  Smin  Smax t
+-------------------------------------------------------------------------------
+   1  7.48E-01  3.34E+00  2.04E+00  0.00E+00  3.86E-01  0.00  1.00 3
+   2  6.14E-01  1.82E+00  1.21E+00  0.00E+00  8.26E-01  0.00  1.00 3
+   3  4.38E-01  2.56E+00  1.49E+00  0.00E+00  4.71E-01  0.00  1.00 3
+   4  4.54E-01  1.44E+00  9.36E-01  0.00E+00  1.01E+00  0.00  1.00 3
+   5  1.44E-01  1.58E+00  8.30E-01  0.00E+00  6.96E-01  0.00  1.00 3
+   6  1.80E-01  9.71E-01  6.09E-01  0.00E+00  1.26E+00  0.00  1.00 3
+   7  3.16E-02  9.71E-01  4.26E-01  0.00E+00  1.06E+00  0.00  1.00 3
+   8  4.87E-02  6.62E-01  4.07E-01  0.00E+00  1.63E+00  0.00  1.00 3
+   9  6.08E-03  6.16E-01  3.55E-01  0.00E+00  1.64E+00  0.00  1.00 3
+  10  1.34E-02  1.18E+00  5.07E-01  0.00E+00  8.56E-01  0.00  1.00 3
+  11  8.73E-05  4.81E-01  2.69E-01  0.00E+00  2.08E+00  0.00  1.00 3
+  12  4.88E-04  9.89E-01  2.92E-01  0.00E+00  1.01E+00  0.00  1.00 3
+  13  2.70E-08  3.42E-01  1.92E-01  0.00E+00  2.93E+00  0.00  1.00 3
+  14  9.54E-07  9.02E-01  1.61E-01  0.00E+00  1.11E+00  0.00  1.00 3
+  15  0.00E+00  2.44E-01  8.63E-02  0.00E+00  4.10E+00  0.00  1.00 3
+  16  0.00E+00  8.11E-01  6.06E-02  0.00E+00  1.23E+00  0.00  1.00 3
+  17  8.43E-05  3.95E-02  1.53E-02  0.00E+00  2.54E+01  0.00  1.00 3
+  18  2.58E-03  5.66E-02  1.76E-02  0.00E+00  1.85E+01  0.00  1.00 3
+  19  1.05E-04  7.30E-02  1.48E-02  0.00E+00  1.37E+01  0.00  1.00 3
+  20  1.15E-02  2.75E-01  1.25E-01  0.00E+00  3.80E+00  0.00  1.00 3
+  21  3.84E-04  6.96E-02  1.57E-02  0.00E+00  1.44E+01  0.00  1.00 3
+  22  5.07E-05  2.82E-02  5.30E-03  0.00E+00  3.55E+01  0.00  1.00 3
+  23  2.17E-03  1.79E-01  7.31E-02  0.00E+00  5.65E+00  0.00  1.00 3
+  24  1.65E-04  3.12E-02  3.41E-03  0.00E+00  3.22E+01  0.00  1.00 3
+  25  8.59E-06  2.94E-02  3.56E-03  0.00E+00  3.40E+01  0.00  1.00 3
+  26  6.99E-05  6.13E-02  2.38E-02  0.00E+00  1.63E+01  0.00  1.00 3
+  27  3.00E-09  1.32E-02  2.43E-03  0.00E+00  7.59E+01  0.00  1.00 3
+-------------------------------------------------------------------------------
+Scaling data for symmetry functions element  O :
+-------------------------------------------------------------------------------
+ ind       min       max      mean     sigma        sf  Smin  Smax t
+-------------------------------------------------------------------------------
+   1  1.13E+00  3.70E+00  2.42E+00  0.00E+00  3.90E-01  0.00  1.00 3
+   2  3.22E-01  1.51E+00  8.52E-01  0.00E+00  8.39E-01  0.00  1.00 3
+   3  8.35E-01  2.89E+00  1.87E+00  0.00E+00  4.88E-01  0.00  1.00 3
+   4  1.92E-01  1.13E+00  5.81E-01  0.00E+00  1.06E+00  0.00  1.00 3
+   5  5.12E-01  1.89E+00  1.22E+00  0.00E+00  7.24E-01  0.00  1.00 3
+   6  6.66E-02  6.57E-01  2.70E-01  0.00E+00  1.69E+00  0.00  1.00 3
+   7  3.34E-01  1.27E+00  8.14E-01  0.00E+00  1.07E+00  0.00  1.00 3
+   8  1.54E-02  3.70E-01  9.80E-02  0.00E+00  2.82E+00  0.00  1.00 3
+   9  2.58E-01  1.19E+00  7.10E-01  0.00E+00  1.07E+00  0.00  1.00 3
+  10  7.18E-02  9.85E-01  4.19E-01  0.00E+00  1.09E+00  0.00  1.00 3
+  11  1.09E-01  9.58E-01  5.37E-01  0.00E+00  1.18E+00  0.00  1.00 3
+  12  1.32E-02  7.76E-01  2.80E-01  0.00E+00  1.31E+00  0.00  1.00 3
+  13  1.35E-02  7.26E-01  3.83E-01  0.00E+00  1.40E+00  0.00  1.00 3
+  14  6.03E-04  5.64E-01  1.57E-01  0.00E+00  1.78E+00  0.00  1.00 3
+  15  2.87E-05  4.50E-01  1.73E-01  0.00E+00  2.22E+00  0.00  1.00 3
+  16  1.55E-07  4.50E-01  4.48E-02  0.00E+00  2.22E+00  0.00  1.00 3
+  17  9.07E-04  4.50E-02  1.34E-02  0.00E+00  2.27E+01  0.00  1.00 3
+  18  7.69E-06  1.23E-02  5.57E-04  0.00E+00  8.16E+01  0.00  1.00 3
+  19  3.34E-02  3.92E-01  1.64E-01  0.00E+00  2.79E+00  0.00  1.00 3
+  20  7.58E-04  3.24E-02  7.81E-03  0.00E+00  3.16E+01  0.00  1.00 3
+  21  1.31E-03  9.46E-02  2.77E-02  0.00E+00  1.07E+01  0.00  1.00 3
+  22  8.40E-03  1.89E-01  6.08E-02  0.00E+00  5.53E+00  0.00  1.00 3
+  23  1.14E-03  1.45E-01  4.51E-02  0.00E+00  6.97E+00  0.00  1.00 3
+  24  2.03E-04  3.75E-02  5.38E-03  0.00E+00  2.68E+01  0.00  1.00 3
+  25  3.50E-06  5.12E-03  1.71E-04  0.00E+00  1.95E+02  0.00  1.00 3
+  26  2.04E-03  1.68E-01  4.38E-02  0.00E+00  6.04E+00  0.00  1.00 3
+  27  2.55E-03  1.02E-01  2.94E-02  0.00E+00  1.01E+01  0.00  1.00 3
+  28  1.30E-05  5.70E-03  4.82E-04  0.00E+00  1.76E+02  0.00  1.00 3
+  29  5.46E-05  6.35E-02  1.61E-02  0.00E+00  1.58E+01  0.00  1.00 3
+  30  8.31E-05  7.18E-02  1.13E-02  0.00E+00  1.39E+01  0.00  1.00 3
+-------------------------------------------------------------------------------
+*******************************************************************************
+
+*** SETUP: SYMMETRY FUNCTION STATISTICS ***************************************
+
+Equal symmetry function statistics for all elements.
+Collect min/max/mean/sigma                        : 0
+Collect extrapolation warnings                    : 1
+Write extrapolation warnings immediately to stderr: 0
+Halt on any extrapolation warning                 : 0
+*******************************************************************************
+
+*** SETUP: NEURAL NETWORK WEIGHTS *********************************************
+
+Weight file name format: nnp/weights.%03d.data
+Weight file for element  H: nnp/weights.001.data
+Weight file for element  O: nnp/weights.008.data
+*******************************************************************************
+
+*** SETUP: LAMMPS INTERFACE ***************************************************
+
+Individual extrapolation warnings will not be shown.
+Extrapolation warning summary will be shown every 1000 timesteps.
+The simulation will be stopped when 200 extrapolation warnings are exceeded.
+Extrapolation warning counter is reset every time step.
+-------------------------------------------------------------------------------
+CAUTION: If the LAMMPS unit system differs from the one used
+         during NN training, appropriate conversion factors
+         must be provided (see keywords cflength and cfenergy).
+
+Length unit conversion factor:   1.8897261327999999E+00
+Energy unit conversion factor:   3.6749325399999998E-02
+
+Checking consistency of cutoff radii (in LAMMPS units):
+LAMMPS Cutoff (via pair_coeff)  :   6.350E+00
+Maximum symmetry function cutoff:   6.350E+00
+Cutoff radii are consistent.
+-------------------------------------------------------------------------------
+CAUTION: Please ensure that this mapping between LAMMPS
+         atom types and NNP elements is consistent:
+
+---------------------------
+LAMMPS type  |  NNP element
+---------------------------
+          1 <->  H (  1)
+          2 <->  O (  8)
+---------------------------
+
+NNP setup for LAMMPS completed.
+*******************************************************************************
+Neighbor list info ...
+  update every 1 steps, delay 0 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 13.3501
+  ghost atom cutoff = 13.3501
+  binsize = 6.67506, bins = 8 7 14
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair nnp, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+### NNP EW SUMMARY ### TS:          0 EW          0 EWPERSTEP  0.000E+00
+Per MPI rank memory allocation (min/avg/max) = 73.01 | 73.01 | 73.01 Mbytes
+Step Temp E_pair E_mol TotEng Press Volume 
+       0    394.98814   -2704689.9            0   -2703807.7    40107.524    187135.47 
+       1    388.63603   -2704675.1            0     -2703807    38702.304    187135.48 
+       2     372.7783   -2704638.1            0   -2703805.5    34656.095    187135.48 
+       3    354.68172   -2704596.2            0     -2703804    28269.313    187135.49 
+       4    339.63779   -2704561.8            0   -2703803.2    20116.787     187135.5 
+       5    327.43063   -2704534.1            0   -2703802.8    11054.901    187135.51 
+       6    314.30143   -2704503.8            0   -2703801.8    2100.9139    187135.52 
+       7    297.64535   -2704464.9            0   -2703800.1    -5751.662    187135.53 
+       8     278.6242   -2704420.2            0   -2703797.9   -11674.746    187135.54 
+       9    261.21205   -2704379.3            0   -2703795.9   -15077.401    187135.55 
+      10    249.43009   -2704351.4            0   -2703794.3   -15628.847    187135.56 
+      11    244.99358   -2704340.4            0   -2703793.2   -13255.074    187135.56 
+      12    246.59085   -2704343.3            0   -2703792.6   -8132.0024    187135.57 
+      13    250.95637   -2704352.4            0   -2703791.9    -685.9037    187135.58 
+      14    255.07096   -2704360.4            0   -2703790.7    8410.9372    187135.58 
+      15    258.07699   -2704365.6            0   -2703789.2    18272.122    187135.59 
+      16    261.23436   -2704371.1            0   -2703787.6    27878.027     187135.6 
+      17    265.48275   -2704379.4            0   -2703786.4    36212.542    187135.61 
+      18    268.86761     -2704386            0   -2703785.5    42414.435    187135.62 
+      19    267.23383   -2704381.1            0   -2703784.2    45867.975    187135.64 
+      20    258.39378   -2704359.1            0     -2703782    46215.948    187135.65 
+      21    245.54057   -2704327.6            0   -2703779.2    43358.855    187135.68 
+      22    235.67789     -2704303            0   -2703776.6    37497.561     187135.7 
+      23    233.72321   -2704297.1            0   -2703775.1    29206.741    187135.73 
+      24    237.90242   -2704305.7            0   -2703774.4    19446.946    187135.76 
+      25    241.39615   -2704312.5            0   -2703773.3    9420.4183    187135.79 
+      26     238.4972   -2704304.1            0   -2703771.4     318.9127    187135.83 
+      27    228.94935   -2704280.1            0   -2703768.7   -6885.2461    187135.86 
+      28    217.32561   -2704251.4            0     -2703766   -11535.251    187135.89 
+      29    209.50754   -2704231.6            0   -2703763.7   -13303.023    187135.92 
+      30    209.50586   -2704229.8            0   -2703761.9   -12157.835    187135.95 
+      31    218.20035   -2704247.7            0   -2703760.4   -8319.7601    187135.98 
+      32    233.89503   -2704281.4            0     -2703759   -2219.8631    187136.01 
+      33    253.77007   -2704324.2            0   -2703757.4    5531.5813    187136.04 
+      34    275.13323     -2704370            0   -2703755.5    14182.122    187136.07 
+      35    295.68183     -2704414            0   -2703753.6    22893.122     187136.1 
+      36    312.88423   -2704450.5            0   -2703751.7    30817.358    187136.13 
+      37     323.6531   -2704472.5            0   -2703749.6    37181.134    187136.16 
+      38    325.46055   -2704474.1            0   -2703747.2    41347.162     187136.2 
+      39    318.44277   -2704455.4            0   
