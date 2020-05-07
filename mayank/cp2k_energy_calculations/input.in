@@ -224,8 +224,8 @@
     &END QS
     &MGRID
       NGRIDS 4
-      CUTOFF 120
-      REL_CUTOFF 20
+      CUTOFF 135
+      REL_CUTOFF 115
     &END MGRID
     &XC
       &XC_FUNCTIONAL PADE

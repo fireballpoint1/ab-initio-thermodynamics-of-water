@@ -3,7 +3,7 @@
 #SBATCH --qos=medium
 #SBATCH -n 10
 #SBATCH --gres=gpu:0
-#SBATCH --mem-per-cpu=2048
+#SBATCH --mem-per-cpu=4096
 #SBATCH --time=4-00:00:00
 #SBATCH --mail-type=END
 
