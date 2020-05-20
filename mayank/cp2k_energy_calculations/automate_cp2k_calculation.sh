@@ -8,8 +8,8 @@ FILE="input"
 OUTFILE="output"
 for i in $(seq $START 1 $END)
 do
-	INPUT = $FILE$i$EXT
-	OUTPUT = $OUTDIR$OUTFILE$i$OUTEXT
+	INPUT=$DIR$FILE$i$EXT
+	OUTPUT=$OUTDIR$OUTFILE$i$OUTEXT
         echo "INPUT and OUTPUT File $INPUT $OUTPUT"
 	if test -f $INPUT;then
 		echo "Using $INPUT $OUTPUT"
