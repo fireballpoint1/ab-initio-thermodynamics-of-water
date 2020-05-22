@@ -1,0 +1,1010 @@
+==========================================
+SLURM_JOB_ID = 148846
+SLURM_NODELIST = gnode39
+SLURM_JOB_GPUS = 
+==========================================
+INPUT and OUTPUT File ./input1.in output/output1.out
+Using ./input1.in output/output1.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input2.in output/output2.out
+Using ./input2.in output/output2.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input3.in output/output3.out
+Using ./input3.in output/output3.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input4.in output/output4.out
+Using ./input4.in output/output4.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input5.in output/output5.out
+Using ./input5.in output/output5.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input6.in output/output6.out
+Using ./input6.in output/output6.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input7.in output/output7.out
+Using ./input7.in output/output7.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input8.in output/output8.out
+Using ./input8.in output/output8.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input9.in output/output9.out
+Using ./input9.in output/output9.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input10.in output/output10.out
+Using ./input10.in output/output10.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input11.in output/output11.out
+Using ./input11.in output/output11.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input12.in output/output12.out
+Using ./input12.in output/output12.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input13.in output/output13.out
+Using ./input13.in output/output13.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input14.in output/output14.out
+Using ./input14.in output/output14.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input15.in output/output15.out
+Using ./input15.in output/output15.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input16.in output/output16.out
+Using ./input16.in output/output16.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input17.in output/output17.out
+Using ./input17.in output/output17.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input18.in output/output18.out
+Using ./input18.in output/output18.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input19.in output/output19.out
+Using ./input19.in output/output19.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input20.in output/output20.out
+Using ./input20.in output/output20.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input21.in output/output21.out
+Using ./input21.in output/output21.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input22.in output/output22.out
+Using ./input22.in output/output22.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input23.in output/output23.out
+Using ./input23.in output/output23.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input24.in output/output24.out
+Using ./input24.in output/output24.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input25.in output/output25.out
+Using ./input25.in output/output25.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input26.in output/output26.out
+Using ./input26.in output/output26.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input27.in output/output27.out
+Using ./input27.in output/output27.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input28.in output/output28.out
+Using ./input28.in output/output28.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input29.in output/output29.out
+Using ./input29.in output/output29.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input30.in output/output30.out
+Using ./input30.in output/output30.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input31.in output/output31.out
+Using ./input31.in output/output31.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input32.in output/output32.out
+Using ./input32.in output/output32.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input33.in output/output33.out
+Using ./input33.in output/output33.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input34.in output/output34.out
+Using ./input34.in output/output34.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input35.in output/output35.out
+Using ./input35.in output/output35.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input36.in output/output36.out
+Using ./input36.in output/output36.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input37.in output/output37.out
+Using ./input37.in output/output37.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input38.in output/output38.out
+Using ./input38.in output/output38.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input39.in output/output39.out
+Using ./input39.in output/output39.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input40.in output/output40.out
+Using ./input40.in output/output40.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input41.in output/output41.out
+Using ./input41.in output/output41.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input42.in output/output42.out
+Using ./input42.in output/output42.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input43.in output/output43.out
+Using ./input43.in output/output43.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input44.in output/output44.out
+Using ./input44.in output/output44.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input45.in output/output45.out
+Using ./input45.in output/output45.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input46.in output/output46.out
+Using ./input46.in output/output46.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input47.in output/output47.out
+Using ./input47.in output/output47.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input48.in output/output48.out
+Using ./input48.in output/output48.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input49.in output/output49.out
+Using ./input49.in output/output49.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input50.in output/output50.out
+Using ./input50.in output/output50.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input51.in output/output51.out
+Using ./input51.in output/output51.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input52.in output/output52.out
+Using ./input52.in output/output52.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input53.in output/output53.out
+Using ./input53.in output/output53.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input54.in output/output54.out
+Using ./input54.in output/output54.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input55.in output/output55.out
+Using ./input55.in output/output55.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input56.in output/output56.out
+Using ./input56.in output/output56.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input57.in output/output57.out
+Using ./input57.in output/output57.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input58.in output/output58.out
+Using ./input58.in output/output58.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input59.in output/output59.out
+Using ./input59.in output/output59.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input60.in output/output60.out
+Using ./input60.in output/output60.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input61.in output/output61.out
+Using ./input61.in output/output61.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input62.in output/output62.out
+Using ./input62.in output/output62.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input63.in output/output63.out
+Using ./input63.in output/output63.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input64.in output/output64.out
+Using ./input64.in output/output64.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input65.in output/output65.out
+Using ./input65.in output/output65.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input66.in output/output66.out
+Using ./input66.in output/output66.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input67.in output/output67.out
+Using ./input67.in output/output67.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input68.in output/output68.out
+Using ./input68.in output/output68.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input69.in output/output69.out
+Using ./input69.in output/output69.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input70.in output/output70.out
+Using ./input70.in output/output70.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input71.in output/output71.out
+Using ./input71.in output/output71.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input72.in output/output72.out
+Using ./input72.in output/output72.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input73.in output/output73.out
+Using ./input73.in output/output73.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input74.in output/output74.out
+Using ./input74.in output/output74.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input75.in output/output75.out
+Using ./input75.in output/output75.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input76.in output/output76.out
+Using ./input76.in output/output76.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input77.in output/output77.out
+Using ./input77.in output/output77.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input78.in output/output78.out
+Using ./input78.in output/output78.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input79.in output/output79.out
+Using ./input79.in output/output79.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input80.in output/output80.out
+Using ./input80.in output/output80.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input81.in output/output81.out
+Using ./input81.in output/output81.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input82.in output/output82.out
+Using ./input82.in output/output82.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input83.in output/output83.out
+Using ./input83.in output/output83.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input84.in output/output84.out
+Using ./input84.in output/output84.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input85.in output/output85.out
+Using ./input85.in output/output85.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input86.in output/output86.out
+Using ./input86.in output/output86.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input87.in output/output87.out
+Using ./input87.in output/output87.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input88.in output/output88.out
+Using ./input88.in output/output88.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input89.in output/output89.out
+Using ./input89.in output/output89.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input90.in output/output90.out
+Using ./input90.in output/output90.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input91.in output/output91.out
+Using ./input91.in output/output91.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input92.in output/output92.out
+Using ./input92.in output/output92.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input93.in output/output93.out
+Using ./input93.in output/output93.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input94.in output/output94.out
+Using ./input94.in output/output94.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input95.in output/output95.out
+Using ./input95.in output/output95.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input96.in output/output96.out
+Using ./input96.in output/output96.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input97.in output/output97.out
+Using ./input97.in output/output97.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input98.in output/output98.out
+Using ./input98.in output/output98.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input99.in output/output99.out
+Using ./input99.in output/output99.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input100.in output/output100.out
+Using ./input100.in output/output100.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input101.in output/output101.out
+Using ./input101.in output/output101.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input102.in output/output102.out
+Using ./input102.in output/output102.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input103.in output/output103.out
+Using ./input103.in output/output103.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input104.in output/output104.out
+Using ./input104.in output/output104.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input105.in output/output105.out
+Using ./input105.in output/output105.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input106.in output/output106.out
+Using ./input106.in output/output106.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input107.in output/output107.out
+Using ./input107.in output/output107.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input108.in output/output108.out
+Using ./input108.in output/output108.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input109.in output/output109.out
+Using ./input109.in output/output109.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input110.in output/output110.out
+Using ./input110.in output/output110.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input111.in output/output111.out
+Using ./input111.in output/output111.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input112.in output/output112.out
+Using ./input112.in output/output112.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input113.in output/output113.out
+Using ./input113.in output/output113.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input114.in output/output114.out
+Using ./input114.in output/output114.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input115.in output/output115.out
+Using ./input115.in output/output115.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input116.in output/output116.out
+Using ./input116.in output/output116.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input117.in output/output117.out
+Using ./input117.in output/output117.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input118.in output/output118.out
+Using ./input118.in output/output118.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input119.in output/output119.out
+Using ./input119.in output/output119.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input120.in output/output120.out
+Using ./input120.in output/output120.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input121.in output/output121.out
+Using ./input121.in output/output121.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input122.in output/output122.out
+Using ./input122.in output/output122.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input123.in output/output123.out
+Using ./input123.in output/output123.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input124.in output/output124.out
+Using ./input124.in output/output124.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input125.in output/output125.out
+Using ./input125.in output/output125.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input126.in output/output126.out
+Using ./input126.in output/output126.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input127.in output/output127.out
+Using ./input127.in output/output127.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input128.in output/output128.out
+Using ./input128.in output/output128.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input129.in output/output129.out
+Using ./input129.in output/output129.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input130.in output/output130.out
+Using ./input130.in output/output130.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input131.in output/output131.out
+Using ./input131.in output/output131.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input132.in output/output132.out
+Using ./input132.in output/output132.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input133.in output/output133.out
+Using ./input133.in output/output133.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input134.in output/output134.out
+Using ./input134.in output/output134.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input135.in output/output135.out
+Using ./input135.in output/output135.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input136.in output/output136.out
+Using ./input136.in output/output136.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input137.in output/output137.out
+Using ./input137.in output/output137.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input138.in output/output138.out
+Using ./input138.in output/output138.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input139.in output/output139.out
+Using ./input139.in output/output139.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input140.in output/output140.out
+Using ./input140.in output/output140.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input141.in output/output141.out
+Using ./input141.in output/output141.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input142.in output/output142.out
+Using ./input142.in output/output142.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input143.in output/output143.out
+Using ./input143.in output/output143.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input144.in output/output144.out
+Using ./input144.in output/output144.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input145.in output/output145.out
+Using ./input145.in output/output145.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input146.in output/output146.out
+Using ./input146.in output/output146.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input147.in output/output147.out
+Using ./input147.in output/output147.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input148.in output/output148.out
+Using ./input148.in output/output148.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input149.in output/output149.out
+Using ./input149.in output/output149.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input150.in output/output150.out
+Using ./input150.in output/output150.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input151.in output/output151.out
+Using ./input151.in output/output151.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input152.in output/output152.out
+Using ./input152.in output/output152.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input153.in output/output153.out
+Using ./input153.in output/output153.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input154.in output/output154.out
+Using ./input154.in output/output154.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input155.in output/output155.out
+Using ./input155.in output/output155.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input156.in output/output156.out
+Using ./input156.in output/output156.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input157.in output/output157.out
+Using ./input157.in output/output157.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input158.in output/output158.out
+Using ./input158.in output/output158.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input159.in output/output159.out
+Using ./input159.in output/output159.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input160.in output/output160.out
+Using ./input160.in output/output160.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input161.in output/output161.out
+Using ./input161.in output/output161.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input162.in output/output162.out
+Using ./input162.in output/output162.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input163.in output/output163.out
+Using ./input163.in output/output163.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input164.in output/output164.out
+Using ./input164.in output/output164.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input165.in output/output165.out
+Using ./input165.in output/output165.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input166.in output/output166.out
+Using ./input166.in output/output166.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input167.in output/output167.out
+Using ./input167.in output/output167.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input168.in output/output168.out
+Using ./input168.in output/output168.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input169.in output/output169.out
+Using ./input169.in output/output169.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input170.in output/output170.out
+Using ./input170.in output/output170.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input171.in output/output171.out
+Using ./input171.in output/output171.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input172.in output/output172.out
+Using ./input172.in output/output172.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input173.in output/output173.out
+Using ./input173.in output/output173.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input174.in output/output174.out
+Using ./input174.in output/output174.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input175.in output/output175.out
+Using ./input175.in output/output175.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input176.in output/output176.out
+Using ./input176.in output/output176.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input177.in output/output177.out
+Using ./input177.in output/output177.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input178.in output/output178.out
+Using ./input178.in output/output178.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input179.in output/output179.out
+Using ./input179.in output/output179.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input180.in output/output180.out
+Using ./input180.in output/output180.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input181.in output/output181.out
+Using ./input181.in output/output181.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input182.in output/output182.out
+Using ./input182.in output/output182.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input183.in output/output183.out
+Using ./input183.in output/output183.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input184.in output/output184.out
+Using ./input184.in output/output184.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input185.in output/output185.out
+Using ./input185.in output/output185.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input186.in output/output186.out
+Using ./input186.in output/output186.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input187.in output/output187.out
+Using ./input187.in output/output187.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input188.in output/output188.out
+Using ./input188.in output/output188.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input189.in output/output189.out
+Using ./input189.in output/output189.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input190.in output/output190.out
+Using ./input190.in output/output190.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input191.in output/output191.out
+Using ./input191.in output/output191.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input192.in output/output192.out
+Using ./input192.in output/output192.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input193.in output/output193.out
+Using ./input193.in output/output193.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input194.in output/output194.out
+Using ./input194.in output/output194.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input195.in output/output195.out
+Using ./input195.in output/output195.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input196.in output/output196.out
+Using ./input196.in output/output196.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input197.in output/output197.out
+Using ./input197.in output/output197.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input198.in output/output198.out
+Using ./input198.in output/output198.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input199.in output/output199.out
+Using ./input199.in output/output199.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input200.in output/output200.out
+Using ./input200.in output/output200.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File ./input201.in output/output201.out
+Using ./input201.in output/output201.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
