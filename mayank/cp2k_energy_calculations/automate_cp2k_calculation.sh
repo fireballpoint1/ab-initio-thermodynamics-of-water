@@ -1,5 +1,5 @@
 START=1
-END=3
+END=201
 EXT=".in"
 OUTEXT=".out"
 DIR="./"
