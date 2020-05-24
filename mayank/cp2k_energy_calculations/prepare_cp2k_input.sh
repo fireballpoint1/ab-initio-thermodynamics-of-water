@@ -14,10 +14,11 @@ else
 fi
 
 echo "removing the first 2 lines of the file"
-tail -n +3 $INPFILE > tmp.in 
+#tail -n +3 $INPFILE > tmp.in 
+tail -n +3 $INPFILE | awk '{print $1, $2,$3,$4}' > tmp.in
 
 EXTF=.in
-FILE="input$NUM$EXTF"
+FILE="input_training/input$NUM$EXTF"
 BCKF=mbck.$FILE
 if test -f "$FILE";then
         echo "INFO: $FILE already exists, backing up as $BCKF"

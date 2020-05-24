@@ -2,8 +2,8 @@ START=1
 END=201
 EXT=".in"
 OUTEXT=".out"
-DIR="./"
-OUTDIR="output/"
+DIR="input_training/"
+OUTDIR="output_training/"
 FILE="input"
 OUTFILE="output"
 for i in $(seq $START 1 $END)
