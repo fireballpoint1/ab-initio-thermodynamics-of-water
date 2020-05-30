@@ -1,0 +1,198 @@
+ DBCSR| CPU Multiplication driver                                           XSMM
+ DBCSR| Multrec recursion limit                                              512
+ DBCSR| Multiplication stack size                                           1000
+ DBCSR| Maximum elements for images                                    UNLIMITED
+ DBCSR| Multiplicative factor virtual images                                   1
+ DBCSR| Use multiplication densification                                       T
+ DBCSR| Multiplication size stacks                                             3
+
+
+  **** **** ******  **  PROGRAM STARTED AT               2020-05-30 18:12:21.846
+ ***** ** ***  *** **   PROGRAM STARTED ON                               gnode44
+ **    ****   ******    PROGRAM STARTED BY                           mayank.modi
+ ***** **    ** ** **   PROGRAM PROCESS ID                                 14735
+  **** **  *******  **  PROGRAM STARTED IN /home/mayank.modi/ab-initio-thermodyn
+                                           amics-of-water/mayank/cp2k_energy_cal
+                                           culations
+
+ CP2K| version string:                                          CP2K version 7.1
+ CP2K| source code revision number:                                  git:e635599
+ CP2K| cp2kflags: omp libint fftw3 libxc xsmm spglib                            
+ CP2K| is freely available from                            https://www.cp2k.org/
+ CP2K| Program compiled at                          Mon Dec 23 19:23:12 CET 2019
+ CP2K| Program compiled on                                                pc9404
+ CP2K| Program compiled for                                Linux-x86-64-gfortran
+ CP2K| Data directory path                                        /opt/cp2k/data
+ CP2K| Input file name                                input_training/input100.in
+
+ GLOBAL| Force Environment number                                              1
+ GLOBAL| Basis set file name                                           BASIS_SET
+ GLOBAL| Potential file name                                      GTH_POTENTIALS
+ GLOBAL| MM Potential file name                                     MM_POTENTIAL
+ GLOBAL| Coordinate file name                                      __STD_INPUT__
+ GLOBAL| Method name                                                        CP2K
+ GLOBAL| Project name                                                   H2O_bulk
+ GLOBAL| Preferred FFT library                                             FFTW3
+ GLOBAL| Preferred diagonalization lib.                                       SL
+ GLOBAL| Run type                                                   ENERGY_FORCE
+ GLOBAL| All-to-all communication in single precision                          F
+ GLOBAL| FFTs using library dependent lengths                                  F
+ GLOBAL| Global print level                                                  LOW
+ GLOBAL| MPI I/O enabled                                                       T
+ GLOBAL| Total number of message passing processes                             1
+ GLOBAL| Number of threads for this process                                   36
+ GLOBAL| This output is from process                                           0
+ GLOBAL| CPU model name                Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz
+ GLOBAL| CPUID                                                              1002
+ GLOBAL| Compiled for CPUID                                                    0
+
+ MEMORY| system memory details [Kb]
+ MEMORY|                        rank 0           min           max       average
+ MEMORY| MemTotal            131893056     131893056     131893056     131893056
+ MEMORY| MemFree             120588872     120588872     120588872     120588872
+ MEMORY| Buffers               2132584       2132584       2132584       2132584
+ MEMORY| Cached                3602708       3602708       3602708       3602708
+ MEMORY| Slab                  3308812       3308812       3308812       3308812
+ MEMORY| SReclaimable          3105716       3105716       3105716       3105716
+ MEMORY| MemLikelyFree       129429880     129429880     129429880     129429880
+
+
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:         3 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:        12 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:        20 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:        24 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:        29 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:        45 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:        59 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:       119 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:       120 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:       141 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:       144 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:       162 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:       164 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:       167 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:       183 !
+ GENERATE| WARNING:: No connections detected for Hydrogen - Atom Nr:       185 !
+ GENERATE|  Preliminary Number of Bonds generated:                             0
+ GENERATE|  Achieved consistency in connectivity generation.
+
+ *******************************************************************************
+ *******************************************************************************
+ **                                                                           **
+ **     #####                         ##              ##                      **
+ **    ##   ##            ##          ##              ##                      **
+ **   ##     ##                       ##            ######                    **
+ **   ##     ##  ##   ##  ##   #####  ##  ##   ####   ##    #####    #####    **
+ **   ##     ##  ##   ##  ##  ##      ## ##   ##      ##   ##   ##  ##   ##   **
+ **   ##  ## ##  ##   ##  ##  ##      ####     ###    ##   ######   ######    **
+ **    ##  ###   ##   ##  ##  ##      ## ##      ##   ##   ##       ##        **
+ **     #######   #####   ##   #####  ##  ##  ####    ##    #####   ##        **
+ **           ##                                                    ##        **
+ **                                                                           **
+ **                                                ... make the atoms dance   **
+ **                                                                           **
+ **            Copyright (C) by CP2K developers group (2000 - 2019)           **
+ **                                                                           **
+ *******************************************************************************
+
+
+ TOTAL NUMBERS AND MAXIMUM NUMBERS
+
+  Total number of            - Atomic kinds:                                   2
+                             - Atoms:                                        192
+                             - Shell sets:                                   384
+                             - Shells:                                       704
+                             - Primitive Cartesian functions:                960
+                             - Cartesian basis functions:                   1536
+                             - Spherical basis functions:                   1472
+
+  Maximum angular momentum of- Orbital basis functions:                        2
+                             - Local part of the GTH pseudopotential:          2
+                             - Non-local part of the GTH pseudopotential:      0
+
+
+ SCF PARAMETERS         Density guess:                                    ATOMIC
+                        --------------------------------------------------------
+                        max_scf:                                             300
+                        max_scf_history:                                       0
+                        max_diis:                                              4
+                        --------------------------------------------------------
+                        eps_scf:                                        1.00E-07
+                        eps_scf_history:                                0.00E+00
+                        eps_diis:                                       1.00E-01
+                        eps_eigval:                                     1.00E-05
+                        --------------------------------------------------------
+                        level_shift [a.u.]:                                 0.00
+                        --------------------------------------------------------
+                        Mixing method:                            BROYDEN_MIXING
+                                                charge density mixing in g-space
+                        --------------------------------------------------------
+                        No outer SCF
+
+ Number of electrons:                                                        512
+ Number of occupied orbitals:                                                256
+ Number of molecular orbitals:                                               256
+
+ Number of orbital functions:                                               1472
+ Number of independent orbital functions:                                   1472
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 NoMix/Diag. 0.40E+00   10.2     0.68793960     -1063.6444044387 -1.06E+03
+     2 Broy./Diag. 0.40E+00   15.7     1.96761741      -986.0214803356  7.76E+01
+     3 Broy./Diag. 0.40E+00   17.3     1.91455984     -1287.9152736094 -3.02E+02
+     4 Broy./Diag. 0.40E+00   17.9     1.86574371     -1164.5642322583  1.23E+02
+     5 Broy./Diag. 0.40E+00   18.0     1.97546285     -1104.0511343448  6.05E+01
+     6 Broy./Diag. 0.40E+00   18.5     1.93336934     -1080.7605080551  2.33E+01
+     7 Broy./Diag. 0.40E+00   20.1     1.84128011     -1115.6531242463 -3.49E+01
+     8 Broy./Diag. 0.40E+00   21.1     1.79559261     -1073.9558640764  4.17E+01
+     9 Broy./Diag. 0.40E+00   22.4     1.85558103     -1084.7871043034 -1.08E+01
+    10 Broy./Diag. 0.40E+00   23.6     1.84680057     -1074.4600983342  1.03E+01
+    11 Broy./Diag. 0.40E+00   24.7     1.94690364     -1099.0807656756 -2.46E+01
+    12 Broy./Diag. 0.40E+00   24.1     1.88462103     -1075.0428826248  2.40E+01
+    13 Broy./Diag. 0.40E+00   23.7     1.92483441     -1070.4199811420  4.62E+00
+    14 Broy./Diag. 0.40E+00   23.5     1.97065472     -1077.6686334769 -7.25E+00
+    15 Broy./Diag. 0.40E+00   23.9     1.84084868     -1092.9732076727 -1.53E+01
+    16 Broy./Diag. 0.40E+00   21.9     1.84860625     -1066.9496355341  2.60E+01
+    17 Broy./Diag. 0.40E+00   22.5     1.82775726     -1069.8749501290 -2.93E+00
+    18 Broy./Diag. 0.40E+00   24.0     1.86709100     -1072.8505169320 -2.98E+00
+    19 Broy./Diag. 0.40E+00   24.3     1.94214171     -1071.0357824968  1.81E+00
+    20 Broy./Diag. 0.40E+00   23.9     1.91145513     -1075.0833542474 -4.05E+00
+    21 Broy./Diag. 0.40E+00   23.5     1.93565645     -1092.7080529509 -1.76E+01
+    22 Broy./Diag. 0.40E+00   23.5     1.72243670     -1062.0287924626  3.07E+01
+    23 Broy./Diag. 0.40E+00   22.2     1.80083427     -1082.3289634191 -2.03E+01
+    24 Broy./Diag. 0.40E+00   23.2     1.90535855     -1081.7342246022  5.95E-01
+    25 Broy./Diag. 0.40E+00   23.3     1.93187949     -1068.3270690660  1.34E+01
+    26 Broy./Diag. 0.40E+00   22.7     1.91566519     -1069.0488699842 -7.22E-01
+    27 Broy./Diag. 0.40E+00   23.8     1.88668008     -1093.0749417029 -2.40E+01
+    28 Broy./Diag. 0.40E+00   23.8     1.90265729     -1067.2901638451  2.58E+01
+    29 Broy./Diag. 0.40E+00   24.0     1.89873114     -1078.7791659007 -1.15E+01
+    30 Broy./Diag. 0.40E+00   23.9     1.89786847     -1066.8716387036  1.19E+01
+    31 Broy./Diag. 0.40E+00   24.5     1.91540315     -1078.2179843074 -1.13E+01
+    32 Broy./Diag. 0.40E+00   24.0     1.86949356     -1079.3564559170 -1.14E+00
+    33 Broy./Diag. 0.40E+00   23.7     1.87658572     -1081.2628213146 -1.91E+00
+    34 Broy./Diag. 0.40E+00   24.1     1.91394465     -1069.3131149057  1.19E+01
+    35 Broy./Diag. 0.40E+00   23.9     1.80220241     -1076.1054417130 -6.79E+00
+    36 Broy./Diag. 0.40E+00   24.0     1.85756539     -1081.6483022981 -5.54E+00
+    37 Broy./Diag. 0.40E+00   24.0     1.86822592     -1064.0448886696  1.76E+01
+    38 Broy./Diag. 0.40E+00   23.8     1.95326490     -1081.3323183876 -1.73E+01
+    39 Broy./Diag. 0.40E+00   23.8     1.90724940     -1072.0255500115  9.31E+00
+    40 Broy./Diag. 0.40E+00   23.9     1.91042823     -1068.1485373128  3.88E+00
+    41 Broy./Diag. 0.40E+00   24.2     1.91576233     -1076.0348695455 -7.89E+00
+    42 Broy./Diag. 0.40E+00   23.9     1.79154366     -1079.0965923797 -3.06E+00
+    43 Broy./Diag. 0.40E+00   23.9     1.87923715     -1066.9253930583  1.22E+01
+    44 Broy./Diag. 0.40E+00   23.8     1.89701123     -1085.9692319067 -1.90E+01
+    45 Broy./Diag. 0.40E+00   23.9     1.88479644     -1073.5231152923  1.24E+01
+    46 Broy./Diag. 0.40E+00   24.0     1.97696400     -1067.8068753602  5.72E+00
+    47 Broy./Diag. 0.40E+00   24.1     1.88545284     -1082.3757971053 -1.46E+01
+    48 Broy./Diag. 0.40E+00   23.8     1.92631297     -1071.3443909654  1.10E+01
+    49 Broy./Diag. 0.40E+00   23.9     1.98381670     -1082.6974306488 -1.14E+01
+    50 Broy./Diag. 0.40E+00   23.9     1.88985642     -1069.6610150154  1.30E+01
+    51 Broy./Diag. 0.40E+00   23.6     1.89184832     -1069.5723195851  8.87E-02
+    52 Broy./Diag. 0.40E+00   23.6     1.81241596     -1077.0555232104 -7.48E+00
+    53 Broy./Diag. 0.40E+00   24.1     1.88526240     -1073.8458989560  3.21E+00
