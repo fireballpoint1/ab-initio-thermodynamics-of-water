@@ -1,0 +1,8 @@
+==========================================
+SLURM_JOB_ID = 151901
+SLURM_NODELIST = gnode03
+SLURM_JOB_GPUS = 
+==========================================
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).

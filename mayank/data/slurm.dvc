@@ -1,0 +1,5 @@
+outs:
+- md5: 832d32055ca3f9d0986fbaa5dc91d919.dir
+  size: 138956690
+  nfiles: 6
+  path: slurm

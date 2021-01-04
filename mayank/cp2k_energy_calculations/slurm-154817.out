@@ -1,0 +1,10 @@
+==========================================
+SLURM_JOB_ID = 154817
+SLURM_NODELIST = gnode44
+SLURM_JOB_GPUS = 
+==========================================
+INPUT and OUTPUT File input_training/input100.in output_training/output100.out
+Using input_training/input100.in output_training/output100.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
