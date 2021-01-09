@@ -1,1 +1,13 @@
-/data
+
+data/out6.lammpstrj
+data/out7.1.xyz
+data/out7.lammpstrj
+data/out7.xyz
+data/out_biased6.xyz
+data/out_unbiased2.xyz
+data/out_unbiased3.xyz
+data/out_unbiased3_short.xyz
+data/out_unbiased5.xyz
+data/slurm/
+data/trajectory_wrapped.xyz
+trajectory-out-unbaised5.h5
