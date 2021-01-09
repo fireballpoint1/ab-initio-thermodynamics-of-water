@@ -17,7 +17,8 @@ done
 
 echo "removing the first 2 lines of the file"
 #tail -n +3 $INPFILE > tmp.in
-CELL=$(head -2 $INPFILE | tail -1 | awk -F "=" '{print $6}' | sed 's/\"//g' | sed 's/\Properties//g')
+CELL=$(head -2 $INPFILE | tail -1 | awk -F "=" '{print $2}' | sed 's/\"//g' | sed 's/\Properties//g')
+echo $CELL
 CELLA=$(echo $CELL | awk '{print $1,$2,$3}')
 CELLB=$(echo $CELL | awk '{print $4,$5,$6}')
 CELLC=$(echo $CELL | awk '{print $7,$8,$9}')
