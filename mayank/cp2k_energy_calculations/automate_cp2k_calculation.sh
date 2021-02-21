@@ -1,4 +1,4 @@
-START=0
+START=524
 END=1590
 EXT=".in"
 OUTEXT=".out"
