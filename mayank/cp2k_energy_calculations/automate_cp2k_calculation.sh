@@ -1,12 +1,12 @@
-START=100
-END=201
+START=1
+END=1590
 EXT=".in"
 OUTEXT=".out"
-DIR="input_training/"
-OUTDIR="output_training/"
+DIR="input_training_correct_cell/"
+OUTDIR="output_training_correct_cell/"
 FILE="input"
 OUTFILE="output"
-for i in $(seq $START 1 $END)
+for i in $(seq $START 4 $END)
 do
 	INPUT=$DIR$FILE$i$EXT
 	OUTPUT=$OUTDIR$OUTFILE$i$OUTEXT

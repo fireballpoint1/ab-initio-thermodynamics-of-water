@@ -1,0 +1,661 @@
+INPUT and OUTPUT File input_training_correct_cell/input1.in output_training_correct_cell/output1.out
+Using input_training_correct_cell/input1.in output_training_correct_cell/output1.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input5.in output_training_correct_cell/output5.out
+Using input_training_correct_cell/input5.in output_training_correct_cell/output5.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input9.in output_training_correct_cell/output9.out
+Using input_training_correct_cell/input9.in output_training_correct_cell/output9.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input13.in output_training_correct_cell/output13.out
+Using input_training_correct_cell/input13.in output_training_correct_cell/output13.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input17.in output_training_correct_cell/output17.out
+Using input_training_correct_cell/input17.in output_training_correct_cell/output17.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input21.in output_training_correct_cell/output21.out
+Using input_training_correct_cell/input21.in output_training_correct_cell/output21.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input25.in output_training_correct_cell/output25.out
+Using input_training_correct_cell/input25.in output_training_correct_cell/output25.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input29.in output_training_correct_cell/output29.out
+Using input_training_correct_cell/input29.in output_training_correct_cell/output29.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input33.in output_training_correct_cell/output33.out
+Using input_training_correct_cell/input33.in output_training_correct_cell/output33.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input37.in output_training_correct_cell/output37.out
+Using input_training_correct_cell/input37.in output_training_correct_cell/output37.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input41.in output_training_correct_cell/output41.out
+Using input_training_correct_cell/input41.in output_training_correct_cell/output41.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input45.in output_training_correct_cell/output45.out
+Using input_training_correct_cell/input45.in output_training_correct_cell/output45.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input49.in output_training_correct_cell/output49.out
+Using input_training_correct_cell/input49.in output_training_correct_cell/output49.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input53.in output_training_correct_cell/output53.out
+Using input_training_correct_cell/input53.in output_training_correct_cell/output53.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input57.in output_training_correct_cell/output57.out
+Using input_training_correct_cell/input57.in output_training_correct_cell/output57.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input61.in output_training_correct_cell/output61.out
+Using input_training_correct_cell/input61.in output_training_correct_cell/output61.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input65.in output_training_correct_cell/output65.out
+Using input_training_correct_cell/input65.in output_training_correct_cell/output65.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input69.in output_training_correct_cell/output69.out
+Using input_training_correct_cell/input69.in output_training_correct_cell/output69.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input73.in output_training_correct_cell/output73.out
+Using input_training_correct_cell/input73.in output_training_correct_cell/output73.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input77.in output_training_correct_cell/output77.out
+Using input_training_correct_cell/input77.in output_training_correct_cell/output77.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input81.in output_training_correct_cell/output81.out
+Using input_training_correct_cell/input81.in output_training_correct_cell/output81.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input85.in output_training_correct_cell/output85.out
+Using input_training_correct_cell/input85.in output_training_correct_cell/output85.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input89.in output_training_correct_cell/output89.out
+Using input_training_correct_cell/input89.in output_training_correct_cell/output89.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input93.in output_training_correct_cell/output93.out
+Using input_training_correct_cell/input93.in output_training_correct_cell/output93.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input97.in output_training_correct_cell/output97.out
+Using input_training_correct_cell/input97.in output_training_correct_cell/output97.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input101.in output_training_correct_cell/output101.out
+Using input_training_correct_cell/input101.in output_training_correct_cell/output101.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input105.in output_training_correct_cell/output105.out
+Using input_training_correct_cell/input105.in output_training_correct_cell/output105.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input109.in output_training_correct_cell/output109.out
+Using input_training_correct_cell/input109.in output_training_correct_cell/output109.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input113.in output_training_correct_cell/output113.out
+Using input_training_correct_cell/input113.in output_training_correct_cell/output113.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input117.in output_training_correct_cell/output117.out
+Using input_training_correct_cell/input117.in output_training_correct_cell/output117.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input121.in output_training_correct_cell/output121.out
+Using input_training_correct_cell/input121.in output_training_correct_cell/output121.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input125.in output_training_correct_cell/output125.out
+Using input_training_correct_cell/input125.in output_training_correct_cell/output125.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input129.in output_training_correct_cell/output129.out
+Using input_training_correct_cell/input129.in output_training_correct_cell/output129.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input133.in output_training_correct_cell/output133.out
+Using input_training_correct_cell/input133.in output_training_correct_cell/output133.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input137.in output_training_correct_cell/output137.out
+Using input_training_correct_cell/input137.in output_training_correct_cell/output137.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input141.in output_training_correct_cell/output141.out
+Using input_training_correct_cell/input141.in output_training_correct_cell/output141.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input145.in output_training_correct_cell/output145.out
+Using input_training_correct_cell/input145.in output_training_correct_cell/output145.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input149.in output_training_correct_cell/output149.out
+Using input_training_correct_cell/input149.in output_training_correct_cell/output149.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input153.in output_training_correct_cell/output153.out
+Using input_training_correct_cell/input153.in output_training_correct_cell/output153.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input157.in output_training_correct_cell/output157.out
+Using input_training_correct_cell/input157.in output_training_correct_cell/output157.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input161.in output_training_correct_cell/output161.out
+Using input_training_correct_cell/input161.in output_training_correct_cell/output161.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input165.in output_training_correct_cell/output165.out
+Using input_training_correct_cell/input165.in output_training_correct_cell/output165.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input169.in output_training_correct_cell/output169.out
+Using input_training_correct_cell/input169.in output_training_correct_cell/output169.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input173.in output_training_correct_cell/output173.out
+Using input_training_correct_cell/input173.in output_training_correct_cell/output173.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input177.in output_training_correct_cell/output177.out
+Using input_training_correct_cell/input177.in output_training_correct_cell/output177.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input181.in output_training_correct_cell/output181.out
+Using input_training_correct_cell/input181.in output_training_correct_cell/output181.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input185.in output_training_correct_cell/output185.out
+Using input_training_correct_cell/input185.in output_training_correct_cell/output185.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input189.in output_training_correct_cell/output189.out
+Using input_training_correct_cell/input189.in output_training_correct_cell/output189.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input193.in output_training_correct_cell/output193.out
+Using input_training_correct_cell/input193.in output_training_correct_cell/output193.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input197.in output_training_correct_cell/output197.out
+Using input_training_correct_cell/input197.in output_training_correct_cell/output197.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input201.in output_training_correct_cell/output201.out
+Using input_training_correct_cell/input201.in output_training_correct_cell/output201.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input205.in output_training_correct_cell/output205.out
+Using input_training_correct_cell/input205.in output_training_correct_cell/output205.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input209.in output_training_correct_cell/output209.out
+Using input_training_correct_cell/input209.in output_training_correct_cell/output209.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input213.in output_training_correct_cell/output213.out
+Using input_training_correct_cell/input213.in output_training_correct_cell/output213.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input217.in output_training_correct_cell/output217.out
+Using input_training_correct_cell/input217.in output_training_correct_cell/output217.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input221.in output_training_correct_cell/output221.out
+Using input_training_correct_cell/input221.in output_training_correct_cell/output221.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input225.in output_training_correct_cell/output225.out
+Using input_training_correct_cell/input225.in output_training_correct_cell/output225.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input229.in output_training_correct_cell/output229.out
+Using input_training_correct_cell/input229.in output_training_correct_cell/output229.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input233.in output_training_correct_cell/output233.out
+Using input_training_correct_cell/input233.in output_training_correct_cell/output233.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input237.in output_training_correct_cell/output237.out
+Using input_training_correct_cell/input237.in output_training_correct_cell/output237.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input241.in output_training_correct_cell/output241.out
+Using input_training_correct_cell/input241.in output_training_correct_cell/output241.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input245.in output_training_correct_cell/output245.out
+Using input_training_correct_cell/input245.in output_training_correct_cell/output245.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input249.in output_training_correct_cell/output249.out
+Using input_training_correct_cell/input249.in output_training_correct_cell/output249.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input253.in output_training_correct_cell/output253.out
+Using input_training_correct_cell/input253.in output_training_correct_cell/output253.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input257.in output_training_correct_cell/output257.out
+Using input_training_correct_cell/input257.in output_training_correct_cell/output257.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input261.in output_training_correct_cell/output261.out
+Using input_training_correct_cell/input261.in output_training_correct_cell/output261.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input265.in output_training_correct_cell/output265.out
+Using input_training_correct_cell/input265.in output_training_correct_cell/output265.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input269.in output_training_correct_cell/output269.out
+Using input_training_correct_cell/input269.in output_training_correct_cell/output269.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input273.in output_training_correct_cell/output273.out
+Using input_training_correct_cell/input273.in output_training_correct_cell/output273.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input277.in output_training_correct_cell/output277.out
+Using input_training_correct_cell/input277.in output_training_correct_cell/output277.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input281.in output_training_correct_cell/output281.out
+Using input_training_correct_cell/input281.in output_training_correct_cell/output281.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input285.in output_training_correct_cell/output285.out
+Using input_training_correct_cell/input285.in output_training_correct_cell/output285.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input289.in output_training_correct_cell/output289.out
+Using input_training_correct_cell/input289.in output_training_correct_cell/output289.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input293.in output_training_correct_cell/output293.out
+Using input_training_correct_cell/input293.in output_training_correct_cell/output293.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input297.in output_training_correct_cell/output297.out
+Using input_training_correct_cell/input297.in output_training_correct_cell/output297.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input301.in output_training_correct_cell/output301.out
+Using input_training_correct_cell/input301.in output_training_correct_cell/output301.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input305.in output_training_correct_cell/output305.out
+Using input_training_correct_cell/input305.in output_training_correct_cell/output305.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input309.in output_training_correct_cell/output309.out
+Using input_training_correct_cell/input309.in output_training_correct_cell/output309.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input313.in output_training_correct_cell/output313.out
+Using input_training_correct_cell/input313.in output_training_correct_cell/output313.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input317.in output_training_correct_cell/output317.out
+Using input_training_correct_cell/input317.in output_training_correct_cell/output317.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input321.in output_training_correct_cell/output321.out
+Using input_training_correct_cell/input321.in output_training_correct_cell/output321.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input325.in output_training_correct_cell/output325.out
+Using input_training_correct_cell/input325.in output_training_correct_cell/output325.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input329.in output_training_correct_cell/output329.out
+Using input_training_correct_cell/input329.in output_training_correct_cell/output329.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input333.in output_training_correct_cell/output333.out
+Using input_training_correct_cell/input333.in output_training_correct_cell/output333.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input337.in output_training_correct_cell/output337.out
+Using input_training_correct_cell/input337.in output_training_correct_cell/output337.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input341.in output_training_correct_cell/output341.out
+Using input_training_correct_cell/input341.in output_training_correct_cell/output341.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input345.in output_training_correct_cell/output345.out
+Using input_training_correct_cell/input345.in output_training_correct_cell/output345.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input349.in output_training_correct_cell/output349.out
+Using input_training_correct_cell/input349.in output_training_correct_cell/output349.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input353.in output_training_correct_cell/output353.out
+Using input_training_correct_cell/input353.in output_training_correct_cell/output353.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input357.in output_training_correct_cell/output357.out
+Using input_training_correct_cell/input357.in output_training_correct_cell/output357.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input361.in output_training_correct_cell/output361.out
+Using input_training_correct_cell/input361.in output_training_correct_cell/output361.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input365.in output_training_correct_cell/output365.out
+Using input_training_correct_cell/input365.in output_training_correct_cell/output365.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input369.in output_training_correct_cell/output369.out
+Using input_training_correct_cell/input369.in output_training_correct_cell/output369.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input373.in output_training_correct_cell/output373.out
+Using input_training_correct_cell/input373.in output_training_correct_cell/output373.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input377.in output_training_correct_cell/output377.out
+Using input_training_correct_cell/input377.in output_training_correct_cell/output377.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input381.in output_training_correct_cell/output381.out
+Using input_training_correct_cell/input381.in output_training_correct_cell/output381.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input385.in output_training_correct_cell/output385.out
+Using input_training_correct_cell/input385.in output_training_correct_cell/output385.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input389.in output_training_correct_cell/output389.out
+Using input_training_correct_cell/input389.in output_training_correct_cell/output389.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input393.in output_training_correct_cell/output393.out
+Using input_training_correct_cell/input393.in output_training_correct_cell/output393.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input397.in output_training_correct_cell/output397.out
+Using input_training_correct_cell/input397.in output_training_correct_cell/output397.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input401.in output_training_correct_cell/output401.out
+Using input_training_correct_cell/input401.in output_training_correct_cell/output401.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input405.in output_training_correct_cell/output405.out
+Using input_training_correct_cell/input405.in output_training_correct_cell/output405.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input409.in output_training_correct_cell/output409.out
+Using input_training_correct_cell/input409.in output_training_correct_cell/output409.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input413.in output_training_correct_cell/output413.out
+Using input_training_correct_cell/input413.in output_training_correct_cell/output413.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input417.in output_training_correct_cell/output417.out
+Using input_training_correct_cell/input417.in output_training_correct_cell/output417.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input421.in output_training_correct_cell/output421.out
+Using input_training_correct_cell/input421.in output_training_correct_cell/output421.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input425.in output_training_correct_cell/output425.out
+Using input_training_correct_cell/input425.in output_training_correct_cell/output425.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input429.in output_training_correct_cell/output429.out
+Using input_training_correct_cell/input429.in output_training_correct_cell/output429.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input433.in output_training_correct_cell/output433.out
+Using input_training_correct_cell/input433.in output_training_correct_cell/output433.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input437.in output_training_correct_cell/output437.out
+Using input_training_correct_cell/input437.in output_training_correct_cell/output437.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input441.in output_training_correct_cell/output441.out
+Using input_training_correct_cell/input441.in output_training_correct_cell/output441.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input445.in output_training_correct_cell/output445.out
+Using input_training_correct_cell/input445.in output_training_correct_cell/output445.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input449.in output_training_correct_cell/output449.out
+Using input_training_correct_cell/input449.in output_training_correct_cell/output449.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input453.in output_training_correct_cell/output453.out
+Using input_training_correct_cell/input453.in output_training_correct_cell/output453.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input457.in output_training_correct_cell/output457.out
+Using input_training_correct_cell/input457.in output_training_correct_cell/output457.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input461.in output_training_correct_cell/output461.out
+Using input_training_correct_cell/input461.in output_training_correct_cell/output461.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input465.in output_training_correct_cell/output465.out
+Using input_training_correct_cell/input465.in output_training_correct_cell/output465.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input469.in output_training_correct_cell/output469.out
+Using input_training_correct_cell/input469.in output_training_correct_cell/output469.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input473.in output_training_correct_cell/output473.out
+Using input_training_correct_cell/input473.in output_training_correct_cell/output473.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input477.in output_training_correct_cell/output477.out
+Using input_training_correct_cell/input477.in output_training_correct_cell/output477.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input481.in output_training_correct_cell/output481.out
+Using input_training_correct_cell/input481.in output_training_correct_cell/output481.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input485.in output_training_correct_cell/output485.out
+Using input_training_correct_cell/input485.in output_training_correct_cell/output485.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input489.in output_training_correct_cell/output489.out
+Using input_training_correct_cell/input489.in output_training_correct_cell/output489.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input493.in output_training_correct_cell/output493.out
+Using input_training_correct_cell/input493.in output_training_correct_cell/output493.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input497.in output_training_correct_cell/output497.out
+Using input_training_correct_cell/input497.in output_training_correct_cell/output497.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input501.in output_training_correct_cell/output501.out
+Using input_training_correct_cell/input501.in output_training_correct_cell/output501.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input505.in output_training_correct_cell/output505.out
+Using input_training_correct_cell/input505.in output_training_correct_cell/output505.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input509.in output_training_correct_cell/output509.out
+Using input_training_correct_cell/input509.in output_training_correct_cell/output509.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input513.in output_training_correct_cell/output513.out
+Using input_training_correct_cell/input513.in output_training_correct_cell/output513.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input517.in output_training_correct_cell/output517.out
+Using input_training_correct_cell/input517.in output_training_correct_cell/output517.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input521.in output_training_correct_cell/output521.out
+Using input_training_correct_cell/input521.in output_training_correct_cell/output521.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+INPUT and OUTPUT File input_training_correct_cell/input525.in output_training_correct_cell/output525.out
+Using input_training_correct_cell/input525.in output_training_correct_cell/output525.out
+ HINT in environment.F:814 The compiler target flags (generic) used to build
+   this binary cannot exploit all extensions of this CPU model (x86_avx2).
+   Consider compiler target flags as part of FCFLAGS and CFLAGS (ARCH file).
+slurmstepd: error: *** JOB 325332 ON gnode75 CANCELLED AT 2021-02-27T22:58:10 DUE TO TIME LIMIT ***
